@@ -1,5 +1,22 @@
-mkdir 创建文件夹
+1.mkdir 创建文件夹
 
-git init 添加到暂存区
+  cd 切换文件
 
-git commit 提交到仓库
+2.如何创建版本库？
+  
+	2.1  git init
+	2.2  git add "文件名"
+	2.3  git commit -m "第一次提交"
+	2.4  修改文件内容，重复2.2,2.3
+	2.5  git log 
+	2.6  git reset --hard HEAD^ 返回第一次
+	2.7  git reflog  查看每次提交随机id
+	2.8  git reset --hard 每次提交的随机id
+
+3.将代码放入远程仓库
+	3.1  git remote add origin https://github.com/lcy0319/js.git
+	3.2  git push -u origin master
+
+4.下载仓库代码
+	4.1  git clone 地址
+ 	
